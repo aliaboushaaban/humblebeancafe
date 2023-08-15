@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+  <title>Home | Humble Bean Cafe</title>
+  <script src="https://kit.fontawesome.com/5108efd9fe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+<div class="popup">
+  <button id="close">&times;</button>
+  <h2>Sign up to receive exlusive discounts and offers!</h2>
+  <p>Submit your email to get discounts, offers and updates from Humble Bean Cafe.</p>
+  <div class="form-group">
+    <label for="email" class="form-label">Please enter your email.</label>  
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email" tabindex="2" required>
+  </div>
+  <a href="#">Join Now</a>
+</div>
+
+<section class="showcase">
+
+  
+  <!-- HEADER -->
+  <header class="header">
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="index.html">Humble Bean Cafe</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="https://humble-bean-cafe.square.site/" target="_blank">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <ul>
+          <li><a href="https://www.facebook.com/humblebeancafe" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/humblebeancafe/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.tiktok.com/@humblebeancafe" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <!-- BACKGROUND VIDEO -->
+  <div class="showcase">
+    <video class="showcase-video" src="image/backvid.mp4" muted loop autoplay></video>
+  </div>
+  <!-- HERO SECTION -->
+
+  <div class="hero-sec">
+    <div class="overlay">
+      <div class="caption">
+        <h3><img src="image/hblogo.png" alt=""></h3>
+        <!-- <p class="description">From it's humble origins in East Africa to cups all over the world, coffee is an experience we'd love to share with you!</p> -->
+        <div>
+          <a href="https://humble-bean-cafe.square.site/" target="_blank">Order Online</a>
+          <a href="#join">Join Rewards</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+  
+<div id="about" class="containers-about">
+  <h1>About Us</h1>
+  <div class="contact-box">
+    <div class="contact-left">
+      <h3>Our Background</h3>
+      <p>Born and bred Californians, we've called the vibrant city of San Diego home for more than twenty years. With an unwavering love for the art of coffee, we're setting out on an adventure to share an extraordinary coffee escapade with the global community. Step into our world as we craft the perfect brew, inviting you to be a part of our humble origins and the exciting journey ahead.</p>
+    </div>
+
+    <div class="contact-right">
+      <h3>Opening Hours</h3>
+      <table class="content-table">
+        <thead>
+        <tr>
+          <th>Monday-Friday</th>
+          <th>Saturday-Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7:00AM - 4:00PM</td>
+          <td>8:00AM - 4:00PM</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+  </div>  
+</div>
+
+<!-- CONNECT WITH US -->
+
+  <div id="contact" class="containers">
+    <h1>Connect With Us.</h1>
+    <p>We would love to respond to your queries!</p>
+    <div class="contact-box">
+      <div class="contact-left">
+        <h3>How Can We Help You?</h3>
+        <form action="https://formsubmit.co/aaboushaaban@ucsd.edu" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">Please enter your name.</label>  
+            <input type="text" class="form-control" name="name" id="name" placeholder="Name" tabindex="1" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Please enter your email.</label>  
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email" tabindex="2" required>
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Please enter a subject.</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">What would you like to tell us?</label>
+            <textarea class=form-control name="message" id="message" cols="50" rows="5" placeholder="Enter Message..." tabindex="4" required></textarea>
+          </div>
+    
+          <div>
+            <button class="btn" type="submit" tabindex="5">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-right">
+        <h3>Reach Us Here:</h3>
+          <table>
+            <tr>
+              <td><i class="fa-solid fa-phone"></i></td>
+              <td><a class="num" href="(619) 578-4301">(619) 578-4301</a></td>
+            </tr>
+
+            <tr>
+              <td><i class="fa-solid fa-envelope"></i></td>
+              <td>smorgan@humblebeancafe.com</td>
+            </tr>
+
+            <tr>
+              <td><i class="fa-solid fa-location-pin"></i></td>
+              <td>2615 Denver St., San Diego, CA, 92110</td>
+            </tr>
+          </table>
+          <span>
+          <a href="https://www.facebook.com/humblebeancafe" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/humblebeancafe/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@humblebeancafe" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          </span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <p>&copy; 2023 Humble Bean Cafe. All Rights Reserved. Proudly Created by Ali Aboushaaban.</p>
+  </footer>
+  
+</body>
+</html>
